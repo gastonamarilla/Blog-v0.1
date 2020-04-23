@@ -3,7 +3,7 @@ import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import header from './components/header';
+import Header from './components/Header';
  
 
 
@@ -19,7 +19,7 @@ return(
             <Route path="/contact" component={Contact} />
 
     </Switch>
-  <header /> 
+  <Header /> 
   </div>
 </Router>
 
