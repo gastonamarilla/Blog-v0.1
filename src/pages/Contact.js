@@ -10,7 +10,7 @@ class Contact extends Component{
     <h1>Contact</h1>
 
     <div>
-        Tel: 5777-1200
+        Tel: 1159100232
     </div>
 </div>
 )
