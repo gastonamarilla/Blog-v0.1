@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 import Header from './components/Header';
 import './styles.css';
 import PostList from './components/PostList';
-
+import Section from './components/Section';
 
 
 class App extends Component{
@@ -14,7 +14,7 @@ class App extends Component{
 return(   
 
 <Router>
-  
+<Section/>
   <div>
     <Switch>
             <Route exact path="/" component={Home} />
@@ -25,8 +25,8 @@ return(
   <Header/> 
   </div>
   <PostList/>
-</Router>
 
+</Router>
 
 );
 }
