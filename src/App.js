@@ -19,7 +19,7 @@ return(
             <Route path="/contact" component={Contact} />
 
     </Switch>
-  <Header /> 
+  <Header/> 
   </div>
 </Router>
 

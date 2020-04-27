@@ -8,7 +8,7 @@ render(){
 return(
     <header>
     <div>
-        <h1>Blog V0.1</h1>
+        <h1>---------------------------------------------------------</h1>
         <nav className="nav">
             <Link to= "/">Home </Link>
             <Link to= "/about">About </Link>

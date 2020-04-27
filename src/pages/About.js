@@ -6,7 +6,7 @@ class About extends Component{
         return(
             <div>
                 <h1>Gaston Amarilla</h1>
-                <div>Copyright © Todos los derechos reservados</div>
+                <footer>Copyright © Todos los derechos reservados</footer>
             </div>
             )
          }
