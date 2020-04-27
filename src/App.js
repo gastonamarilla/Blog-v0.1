@@ -5,13 +5,16 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import './styles.css';
+import PostList from './components/PostList';
 
 
 
 class App extends Component{
   render(){
 return(   
+
 <Router>
+  
   <div>
     <Switch>
             <Route exact path="/" component={Home} />
@@ -21,7 +24,9 @@ return(
     </Switch>
   <Header/> 
   </div>
+  <PostList/>
 </Router>
+
 
 );
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo_blog from "../logo_blog.png";
+import logo_blog from "../images/logo_blog.png";
 class Home extends Component {
 render(){
 return(

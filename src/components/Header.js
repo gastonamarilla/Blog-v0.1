@@ -6,9 +6,10 @@ import {Link} from  "react-router-dom";
 class Header extends Component {
 render(){
 return(
+    
     <header>
     <div>
-        <h1>Hello</h1>
+        
         <h1>---------------------------------------------------------</h1>
         <nav className="nav">
             <Link to= "/">Home </Link>
@@ -17,6 +18,8 @@ return(
         </nav>
     </div>
     </header>
+    
+
 )
 }
 }
