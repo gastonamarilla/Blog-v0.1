@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './components/Header';
- 
+import './styles.css';
 
 
 
@@ -19,7 +19,7 @@ return(
             <Route path="/contact" component={Contact} />
 
     </Switch>
-  <Header /> 
+  <Header/> 
   </div>
 </Router>
 

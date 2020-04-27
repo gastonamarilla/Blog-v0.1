@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-
-
-
-
+import logo_blog from "../logo_blog.png";
 class Home extends Component {
 render(){
 return(
     <div>
-        <h1>
-            
-        </h1>
+        <header>
+        <img src={logo_blog} alt="logo_blog"/>
+        </header>
     </div>
 )
 }
