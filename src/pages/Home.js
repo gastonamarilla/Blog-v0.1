@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import logo_blog from "../images/logo_blog.png";
+import PostList from "../components/PostList.js";
+import Logo from "../components/Logo/Logo.js"
 class Home extends Component {
 render(){
 return(
     <div>
         <header>
-        <img src={logo_blog} alt="logo_blog"/>
+        <Logo/>
+        <h3>Bienvenidos a mi blog</h3>
         </header>
+        <PostList/>
     </div>
 )
 }

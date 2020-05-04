@@ -12,7 +12,7 @@ class Contact extends Component{
         <h1>Contact</h1>
 
         
-         Tel: 1159100232 Email: gamarilla@indec.gob.ar
+         Tel: 1159100232   Email: gamarilla@indec.gob.ar
    
     </div>
     </header>
