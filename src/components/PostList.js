@@ -12,7 +12,7 @@ class PostList extends Component {
                 />
                 <PostItem
                 title="Hoy toca seguir con el proyecto"
-                content="Agregar barras de comentarios " 
+                content="Agregar barras de comentarios "
                 />
             </div>
         )
